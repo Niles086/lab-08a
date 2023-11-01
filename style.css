@@ -1,0 +1,62 @@
+header {
+    background-color: rgb(53, 52, 52);
+    height: 100px;
+}
+
+nav  {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(128, 128, 128);
+    padding: 0 1px;
+    font-size: 14px; 
+    line-height: 1;
+}
+
+.big-pic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.setofthree {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    justify-content: center;
+    gap: 29px;
+
+}
+
+.fsection {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: flex-end; 
+    padding-top: 100px;
+    gap: 29px; 
+    flex: 1 1 200px;
+    width: 50.5%;
+    overflow-y: scroll; 
+    height: 240px; 
+    margin-left: 24.7%;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.long-button {
+    width: 225px; 
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: rgb(53, 52, 52);
+    height: 70px;
+    gap: 20px;
+   }
